@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Collecteur de données Google Maps",
+  "version": "1.0",
+  "description": "Collecte les données des endroits sur Google Maps.",
+  "permissions": ["activeTab","downloads"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/maps/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/map 16.png",
+      "48": "assets/map 48.png",
+      "128": "assets/map 128.png"
+    }
+  },
+  "icons": {
+      "16": "assets/map 16.png",
+      "48": "assets/map 48.png",
+      "128": "assets/map 128.png"
+  }
+}

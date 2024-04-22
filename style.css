@@ -1,0 +1,39 @@
+/* styles.css */
+
+#donnees {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: aqua;
+    margin-top: 20px;
+  }
+  
+  #donnees h2 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  #donnees p {
+    margin-bottom: 10px;
+  }
+  
+  #donnees hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  #monBouton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #monBouton:hover {
+    background-color: #0056b3;
+  }
+  
